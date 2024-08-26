@@ -186,7 +186,7 @@ def add_user(message):
                     user_access[user_to_add] = {"expiry_time": expiry_timestamp}
                     # Save user access data
                     save_user_access(user_access)
-                    response = f"User {user_to_add} approved for {time_value} {time_unit} by @BOOMBAMCHEAT3344.\n\n\n 🅑🅞🅣 🅛🅘🅝🅚: @BOOMBAMCHEAT_BOT"
+                    response = f"User {user_to_add} approved for {time_value} {time_unit} by @Broken_heart_41.\n\n\n 🅑🅞🅣 🅛🅘🅝🅚: @Company_hack_bot"
                 else:
                     response = "User already exists."
             except ValueError:
@@ -324,7 +324,7 @@ def handle_bgmi(message):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text = '''Available commands:\n
-- /attack : Method for BGMI servers.\n
+- /attack1 : Method for BGMI servers.\n
 - /status : Check wheather bot is active?\n
 - /plan : Check your plan expiry date.\n
 - /rules : Please check before use.\n
@@ -444,7 +444,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\n Oops! it seems like you don't have permission to use the /mylogs command. To gain access and unleash the power of attacks,\n\n you can:👉 Contact an Admin or the Owner @BOOMBAMCHEAT3344 for approval.\n🌟 Become a proud supporter and purchase approval.\n💬 Chat with an Owner @BOOMBAMCHEAT3344 now and level up your capabilities!\n\n🚀 Ready to supercharge your experience? Take action and get ready for powerful attacks!")
+        response = ("🚫 Unauthorized Access! 🚫\n\n Oops! it seems like you don't have permission to use the /mylogs command. To gain access and unleash the power of attacks,\n\n you can:👉 Contact an Admin or the Owner @Broken_heart_41 for approval.\n🌟 Become a proud supporter and purchase approval.\n💬 Chat with an Owner @Broken_heart_41 now and level up your capabilities!\n\n🚀 Ready to supercharge your experience? Take action and get ready for powerful attacks!")
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['broadcast'])
